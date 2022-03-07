@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "feather-api",
+        "repositoryURL": "https://github.com/FeatherCMS/feather-api",
+        "state": {
+          "branch": "main",
+          "revision": "52723c644a2f5b8b680f8b62f9fae2a8cf07cc6d",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}
