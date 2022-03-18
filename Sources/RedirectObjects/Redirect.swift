@@ -5,6 +5,6 @@
 //  Created by Tibor Bodecs on 2021. 12. 26..
 //
 
-import FeatherApi
+import FeatherObjects
 
-public enum Redirect: FeatherApiModule {}
+public enum Redirect: FeatherObjectModule {}

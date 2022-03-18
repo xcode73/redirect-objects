@@ -6,11 +6,11 @@
 //
 
 import Foundation
-import FeatherApi
+import FeatherObjects
 
 public extension Redirect {
     
-    enum Rule: FeatherApiModel {
+    enum Rule: FeatherObjectModel {
         public typealias Module = Redirect
         
         public enum StatusCode: Int, CaseIterable {

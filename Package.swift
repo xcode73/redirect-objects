@@ -2,19 +2,19 @@
 import PackageDescription
 
 let package = Package(
-    name: "redirect-api",
+    name: "redirect-objects",
     platforms: [
-       .macOS(.v12),
+       .macOS(.v10_15),
     ],
     products: [
-        .library(name: "RedirectApi", targets: ["RedirectApi"]),
+        .library(name: "RedirectObjects", targets: ["RedirectObjects"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/FeatherCMS/feather-api", .branch("main")),
+        .package(url: "https://github.com/FeatherCMS/feather-objects", .branch("main")),
     ],
     targets: [
-        .target(name: "RedirectApi", dependencies: [
-            .product(name: "FeatherApi", package: "feather-api"),
+        .target(name: "RedirectObjects", dependencies: [
+            .product(name: "FeatherObjects", package: "feather-objects"),
         ]),
     ]
 )
