@@ -1,7 +1,6 @@
 // swift-tools-version: 5.9
 import PackageDescription
 
-
 let package = Package(
     name: "redirect-objects",
     platforms: [.macOS(.v10_15)],
