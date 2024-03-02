@@ -8,10 +8,10 @@
 import Foundation
 import FeatherObjects
 
-public extension Redirect {
+public extension RedirectApi {
     
     enum Rule: FeatherObjectModel {
-        public typealias Module = Redirect
+        public typealias Module = RedirectApi
         
         public enum StatusCode: Int, CaseIterable {
             case temporary = 301
@@ -23,7 +23,7 @@ public extension Redirect {
     }
 }
 
-public extension Redirect.Rule {
+public extension RedirectApi.Rule {
     
     // MARK: -
     
