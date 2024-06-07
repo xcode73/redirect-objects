@@ -6,9 +6,8 @@ let package = Package(
     platforms: [.macOS(.v10_15)],
     products: [.library(name: "RedirectObjects", targets: ["RedirectObjects"])],
     dependencies: [
-        .package(
-            url: "https://github.com/xcode73/feather-objects.git",
-            branch: "test-dev")
+        .package(path: "../feather-objects"),
+//        .package(url: "https://github.com/xcode73/feather-objects.git", branch: "test-dev")
     ],
     targets: [
         .target(
