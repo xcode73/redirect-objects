@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "feather-objects",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/xcode73/feather-objects",
+      "state" : {
+        "branch" : "test-dev",
+        "revision" : "7ea11be04bb31c4c9624f14b55baecdb203427cf"
+      }
+    }
+  ],
+  "version" : 2
+}
